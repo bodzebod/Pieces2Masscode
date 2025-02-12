@@ -1,0 +1,62 @@
+{
+  "folders": [
+    {
+      "id": "dOEZnJja",
+      "name": "Default",
+      "defaultLanguage": "typescript",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "createdAt": 1737369611493,
+      "updatedAt": 1737369611493
+    }
+  ],
+  "snippets": [
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "",
+      "tagsIds": [],
+      "description": null,
+      "name": "Untitled snippet",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": ""
+        }
+      ],
+      "id": "7jH13NYS",
+      "createdAt": 1737369652278,
+      "updatedAt": 1737369667180
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "",
+      "tagsIds": [
+        "ug8yAlQe"
+      ],
+      "description": "This is a test",
+      "name": "Untitled snippet",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "# This is a test"
+        }
+      ],
+      "id": "4seJjvQv",
+      "createdAt": 1737370746436,
+      "updatedAt": 1737370786665
+    }
+  ],
+  "tags": [
+    {
+      "name": "test",
+      "id": "ug8yAlQe",
+      "createdAt": 1737370770111,
+      "updatedAt": 1737370770111
+    }
+  ]
+}

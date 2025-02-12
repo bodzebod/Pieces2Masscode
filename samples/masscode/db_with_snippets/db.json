@@ -1,0 +1,116 @@
+{
+  "folders": [
+    {
+      "id": "dOEZnJja",
+      "name": "Default",
+      "defaultLanguage": "typescript",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "createdAt": 1737369611493,
+      "updatedAt": 1737369611493
+    },
+    {
+      "name": "test_folder",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "5ybgW-qA",
+      "createdAt": 1739284825390,
+      "updatedAt": 1739284831469
+    }
+  ],
+  "snippets": [
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "",
+      "tagsIds": [],
+      "description": null,
+      "name": "Untitled snippet",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": ""
+        }
+      ],
+      "id": "7jH13NYS",
+      "createdAt": 1737369652278,
+      "updatedAt": 1737369667180
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "",
+      "tagsIds": [
+        "ug8yAlQe"
+      ],
+      "description": "This is a test",
+      "name": "Untitled snippet",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "# This is a test"
+        }
+      ],
+      "id": "4seJjvQv",
+      "createdAt": 1737370746436,
+      "updatedAt": 1737370786665
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "",
+      "tagsIds": [],
+      "description": null,
+      "name": "Untitled snippet",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": ""
+        }
+      ],
+      "id": "GMCiYsQB",
+      "createdAt": 1739284795228,
+      "updatedAt": 1739284795228
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "5ybgW-qA",
+      "tagsIds": [
+        "K8FRYOiR"
+      ],
+      "description": "test snippet to have a structure of db with one snippet",
+      "name": "test snippet",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "plain_text",
+          "value": "select * from users;"
+        }
+      ],
+      "id": "mUHti-J8",
+      "createdAt": 1739284840990,
+      "updatedAt": 1739284897169
+    }
+  ],
+  "tags": [
+    {
+      "name": "test",
+      "id": "ug8yAlQe",
+      "createdAt": 1737370770111,
+      "updatedAt": 1737370770111
+    },
+    {
+      "name": "#sql",
+      "id": "K8FRYOiR",
+      "createdAt": 1739284850417,
+      "updatedAt": 1739284850417
+    }
+  ]
+}
