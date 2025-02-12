@@ -6,25 +6,30 @@ A Python tool to export code snippets from Pieces for Developers to massCode for
 
 - Python 3
 - Pieces OS installed and running locally
-- Virtual environment "pieces_for_developers" (created with uv)
+- Virtual environment recommended
 
 ## Setup
 
-1. Activate the virtual environment:
+1. Activate the virtual environment depending on your method (conda, pip, uv...)
+
+2. Install prerequisites:
+
 ```powershell
-.\.venv\Scripts\activate.ps1
+pip install -r requirements.txt
 ```
 
-2. Ensure Pieces OS is running locally
+3. Ensure Pieces OS is running locally
 
 ## Usage
 
 Simply run the main script:
+
 ```powershell
 python src/main.py
 ```
 
 The program will:
+
 1. Connect to your local Pieces OS instance
 2. Fetch all your saved snippets
 3. Convert them to massCode format
@@ -32,9 +37,9 @@ The program will:
 
 ## Features
 
-- Automatic language detection and folder organization
+- Language extraction and folder organization based on Pieces metadata
 - Tag preservation
-- Snippet metadata preservation
+- Partial snippet metadata preservation (Masscode handles less metadata actually than Pieces)
 - Timeout handling (3 minutes max for fetching assets)
 - Cross-platform support
 - Detailed progress logging
@@ -42,13 +47,17 @@ The program will:
 ## Output
 
 The program creates a JSON file that can be imported directly into massCode. Snippets are organized by:
+
 - Language-specific folders
 - Original tags
 - Original metadata (name, description, etc.)
 
+It appears some snippets could have been wrongly classified by Pieces, resulting in some snippets mapped to a wrong folder. So, double-check your snippets folders after the migration.
+
 ## Error Handling
 
 The program will display helpful error messages if:
+
 - Pieces OS is not running
 - No snippets are found
 - The virtual environment is not activated
